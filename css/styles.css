@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*colores */
+
+:root {
+    --green-inst-color: rgb(0,128,1);
+  }
+
+/*estilos nav*/
+
+
+
+.nav{
+    background-color: var(--green-inst-color);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    
+    text-align: center;
+    
+}
+
+
+.nav li {
+    font-size: 1.3em;
+    height: 40px;
+    
+
+    padding: 10px;
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav li ul {
+    
+    height: auto;
+    background-color:rgb(249, 249, 249);
+    
+    display:none ;
+    position: absolute;
+    min-width: 140px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.nav li ul li{
+    display: block;
+    text-align: start;
+}
+.nav li ul li a{
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    font-size: 0.8em;
+    display: block;
+}
+.nav li:hover{
+    cursor: pointer;
+}
+
+.nav li:hover >ul{
+    display: block;
+    
+}
+/*
+nav ul .nav_li{
+    display: inline;
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+}
+.nav ul .nav_li ul {
+    display: none;
+    
+    position: absolute;
+    background-color: chartreuse;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    padding : 10px;
+    margin: 10px;
+    
+}
+a:hover >.nav ul .nav_li ul{
+ display: block;   
+ cursor: copy;
+}
+*/
